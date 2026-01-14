@@ -174,6 +174,73 @@ button:hover {
 }
 .reklam:hover {
     background-color: rgb(14, 14, 14);
+@media (max-width: 768px) {
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .bas h1 {
+        font-size: 10vw;
+    }
+
+    .bas b.men {
+        font-size: 4vw;
+    }
+
+    .port h2 {
+        font-size: 8vw;
+    }
+
+    .port p {
+        font-size: 5vw;
+    }
+
+    .imgbox {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img {
+        width: 90vw;
+        height: auto;
+        padding: 15px;
+    }
+
+    .img h1 {
+        font-size: 6vw;
+    }
+
+    .img b {
+        font-size: 4vw;
+    }
+
+    .btn {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    button {
+        font-size: 4vw;
+        padding: 12px 20px;
+        width: 80vw;
+    }
+
+    .elq {
+        width: 90vw;
+        padding: 15px;
+    }
+
+    .reklam {
+        width: 90vw;
+        font-size: 6vw;
+        height: auto;
+        padding: 20px;
+    }
+}
+    
+    
     border: 2px solid rgba(255, 255, 255, 0.253);
     transition: 0.65s;
+
 }
